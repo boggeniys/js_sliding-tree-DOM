@@ -25,7 +25,7 @@ document.querySelectorAll('ul').forEach((ul) => {
       const li = e.target.closest('li');
 
       if (li.querySelector(':scope > ul')) {
-        li.classList.toggle('some-class');
+        li.classList.toggle('is-open');
       }
     }
   });
